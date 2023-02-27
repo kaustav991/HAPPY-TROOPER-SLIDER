@@ -6,11 +6,9 @@
 .slick-wrap {
   margin: -10px 0;
 }
-
 .slick-wrap .slick-item {
   padding: 0 10px;
 }
-
 .slick-wrap .slick-item.slick-center h2 {
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -20,7 +18,6 @@
   opacity: 1;
   transform: scale(1);
 }
-
 .slick-wrap h2 {
   background-color: #f0f0f0;
   padding: 80px 0;
@@ -32,14 +29,12 @@
   margin: 25px 0 0;
   padding: 0;
 }
-
 .slick-dots li {
   width: auto;
   height: auto;
   display: inline-block;
   padding: 0 5px;
 }
-
 .slick-dots li button {
   width: auto;
   height: auto;
@@ -49,11 +44,9 @@
   border: none;
   background: #f0f0f0;
 }
-
 .slick-dots li button:before {
   content: none;
 }
-
 .slick-dots li.slick-active button {
   background: #ccc;
 }
@@ -64,11 +57,9 @@
   align-items: center;
   justify-content: center;
 }
-
 .custom-dots-slider .slideitem {
   padding: 10px;
 }
-
 .custom-dots-slider .slideitem.slick-current {
   color: red;
 }
@@ -77,74 +68,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 266px;
-  margin: 0 auto;
-  padding: 20px 15px 12px;
-  position: relative;
-}
-
-.imgslider:before {
-  content: '';
-  background: url(../images/Subtract.png);
-  position: absolute;
-  inset: 0;
-  z-index: 3;
-}
-
-.bluebginner {
-  position: relative;
-}
-
-.bluebginner:before {
-  content: '';
-  background: #0093DD;
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
-  width: 295px;
-  height: 295px;
-  border-radius: 50%;
-  overflow: hidden;
-  position: absolute;
-  z-index: 0;
-  margin: 0 auto;
-  inset: 50% 0 auto 0;
-  transform: translateY(-50%);
-}
-
-.bluebginner:after {
-  content: '';
-  background: rgba(0, 147, 221, 0.2);
-  box-shadow: 0px 15px 30px rgb(0 0 0 / 25%);
-  width: 409px;
-  height: 409px;
-  border-radius: 50%;
-  overflow: hidden;
-  position: absolute;
-  z-index: 0;
-  margin: 0 auto;
-  inset: 50% 0 auto 0;
-  transform: translateY(-50%);
-  outline: 60px solid rgba(0, 147, 221, 0.05);
-}
-
-.imgslider .slick-list {
-  z-index: 2;
 }
 
 .imgcontainer {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
-  border-radius: 20px;
 }
-
 .imgcontainer img {
-  object-fit: cover;
-  height: 513px;
-  width: 100%;
-}
-
-.bluebg {
-  background-color: #F0F9FD;
-  padding: 80px 0;
-}
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
